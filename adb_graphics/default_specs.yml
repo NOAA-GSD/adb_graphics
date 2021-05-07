@@ -563,7 +563,7 @@ hlcytot:
   mn03:
     <<: *hlcy_mn03
     accumulate: True
-    title: Run Total 0-6km Min Updraft Helicity (over prv hr)
+    title: Run Total 0-3km Min Updraft Helicity (over prv hr)
     transform: run_total
   mn16:
     <<: *hlcy_mn16
@@ -583,7 +583,7 @@ hlcytot:
   mx03:
     <<: *hlcy_mx03
     accumulate: True
-    title: Run Total 0-6km Max Updraft Helicity (over prv hr)
+    title: Run Total 0-3km Max Updraft Helicity (over prv hr)
     transform: run_total
   mx16:
     <<: *hlcy_mx16
